@@ -15,17 +15,17 @@ body {
   border-radius: 5%;
 }
 .head h2 {
-  color: rgb(12, 111, 169);
+  color: rgb(2, 46, 71);
   font-size: 2.5rem;
 }
 .head p {
-  color: rgb(108, 14, 106);
+  color: rgba(135, 14, 133, 0.875);
   font-size: 1.75rem;
 }
 
 .books img {
-  max-width: 106px;
-  max-height: 160px;
+  max-width: 20%;
+  max-height: 20%;
   margin: 1% 0 1% 15%;
 }
 .books .book-1 {

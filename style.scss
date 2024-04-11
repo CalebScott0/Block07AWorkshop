@@ -1,4 +1,4 @@
-$TextColor-1: rgb(69, 162, 47);
+$TextColor-1: rgb(23, 28, 128);
 $TextColor-2: rgb(12, 111, 169);
 $TextColor-3: rgb(162, 47, 160);
 $TextSize-1: 4rem;
@@ -6,8 +6,11 @@ $TextSize-2: 2.5rem;
 $TextSize-3: 1.75rem;
 
 $DivBorder: 0.5rem double rgb(191, 207, 194);
-$BooksBorder: .1rem solid rgb(192, 33, 33);
+$BooksBorder: 0.1rem solid rgb(192, 33, 33);
 
+body {
+  background-size: cover;
+}
 h1 {
   color: $TextColor-1;
   font-size: $TextSize-1;
@@ -36,8 +39,8 @@ h1 {
     max-height: 100px;
     margin: 1% 5%;
   }
-  @for $i from 1 through 5  {
-    .book-#{$i} {  
+  @for $i from 1 through 5 {
+    .book-#{$i} {
       border: $BooksBorder;
       border-radius: 5%;
       margin: 2% 33%;
@@ -46,6 +49,4 @@ h1 {
       align-items: center;
     }
   }
-
 }
-

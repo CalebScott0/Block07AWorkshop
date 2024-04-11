@@ -1,5 +1,9 @@
+body {
+  background-size: cover;
+}
+
 h1 {
-  color: rgb(69, 162, 47);
+  color: rgb(23, 28, 128);
   font-size: 4rem;
   border: 0.5rem double rgb(191, 207, 194);
   border-radius: 5%;

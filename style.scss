@@ -48,7 +48,7 @@ body {
     max-height: 20%;
     margin: 1% 0 1% 15%;
   }
-  // Loop to apply background and spacing to all 5 book divs
+  // Loop to apply background, border, and spacing to all 5 book divs
   @for $i from 1 through 5 {
     .book-#{$i} {
       background-color: burlywood;

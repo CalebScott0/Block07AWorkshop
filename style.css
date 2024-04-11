@@ -1,1 +1,65 @@
-/*# sourceMappingURL=style.css.map */
+h1 {
+  color: rgb(69, 162, 47);
+  font-size: 4rem;
+  border: 0.5rem double rgb(191, 207, 194);
+  border-radius: 5%;
+}
+
+.text h2 {
+  color: rgb(12, 111, 169);
+  font-size: 2.5rem;
+}
+.text p {
+  color: rgb(162, 47, 160);
+  font-size: 1.75rem;
+}
+
+.head {
+  text-align: center;
+}
+
+.books img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 20px;
+}
+.books .book-1 {
+  border: 0.1rem solid rgb(192, 33, 33);
+  border-radius: 5%;
+  margin: 10px 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.books .book-2 {
+  border: 0.1rem solid rgb(192, 33, 33);
+  border-radius: 5%;
+  margin: 10px 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.books .book-3 {
+  border: 0.1rem solid rgb(192, 33, 33);
+  border-radius: 5%;
+  margin: 10px 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.books .book-4 {
+  border: 0.1rem solid rgb(192, 33, 33);
+  border-radius: 5%;
+  margin: 10px 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.books .book-5 {
+  border: 0.1rem solid rgb(192, 33, 33);
+  border-radius: 5%;
+  margin: 10px 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+$TextColor-1: rgb(69, 162, 47);
+$TextColor-2: rgb(12, 111, 169);
+$TextColor-3: rgb(162, 47, 160);
+$TextSize-1: 4rem;
+$TextSize-2: 2.5rem;
+$TextSize-3: 1.75rem;
+
+$DivBorder: 0.5rem double rgb(191, 207, 194);
+$BooksBorder: .1rem solid rgb(192, 33, 33);
+
+h1 {
+  color: $TextColor-1;
+  font-size: $TextSize-1;
+  border: $DivBorder;
+  border-radius: 5%;
+}
+
+.text {
+  h2 {
+    color: $TextColor-2;
+    font-size: $TextSize-2;
+  }
+  p {
+    color: $TextColor-3;
+    font-size: $TextSize-3;
+  }
+}
+
+.head {
+  text-align: center;
+}
+
+.books {
+  img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 20px;
+  }
+  @for $i from 1 through 5  {
+    .book-#{$i} {  
+      border: $BooksBorder;
+      border-radius: 5%;
+      margin: 10px 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+}
+

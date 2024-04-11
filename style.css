@@ -27,6 +27,7 @@ body {
   max-width: 10em;
   max-height: 10em;
   margin: 1% 5%;
+  padding: 0 5%;
 }
 .books .book-1 {
   background-color: burlywood;
@@ -72,6 +73,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.books a {
+  margin-right: -5%;
+  margin-left: -10%;
+  padding: 0 15%;
 }
 
 footer .breaker {

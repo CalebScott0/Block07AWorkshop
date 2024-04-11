@@ -41,6 +41,7 @@ body {
     max-width: 10em;
     max-height: 10em;
     margin: 1% 5%;
+    padding: 0 5%;
   }
   @for $i from 1 through 5 {
     .book-#{$i} {
@@ -51,8 +52,14 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+      
     }
   }
+   a {
+     margin-right: -5%;
+     margin-left: -10%;
+     padding: 0 15%;
+       }
 }
 
 footer {

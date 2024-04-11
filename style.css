@@ -1,5 +1,6 @@
 body {
   background-size: cover;
+  padding-bottom: 5%;
 }
 
 h1 {
@@ -72,4 +73,12 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .breaker {
+  clear: both;
+}
+footer a {
+  float: right;
+  margin: 1% 1%;
 }/*# sourceMappingURL=style.css.map */

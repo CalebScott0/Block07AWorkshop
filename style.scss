@@ -10,6 +10,7 @@ $BooksBorder: 0.1rem solid rgb(192, 33, 33);
 
 body {
   background-size: cover;
+  padding-bottom: 5%;
 }
 h1 {
   color: $TextColor-1;
@@ -52,3 +53,14 @@ h1 {
     }
   }
 }
+
+footer {
+   .breaker {
+    clear: both;
+   }
+   a {
+    float: right;
+    margin: 1% 1%;
+   }
+}
+

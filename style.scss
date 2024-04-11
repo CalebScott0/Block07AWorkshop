@@ -34,13 +34,13 @@ h1 {
   img {
     max-width: 100px;
     max-height: 100px;
-    margin-right: 20px;
+    margin: 1% 5%;
   }
   @for $i from 1 through 5  {
     .book-#{$i} {  
       border: $BooksBorder;
       border-radius: 5%;
-      margin: 10px 33%;
+      margin: 2% 33%;
       display: flex;
       justify-content: center;
       align-items: center;

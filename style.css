@@ -3,9 +3,10 @@ body {
 }
 
 h1 {
-  color: rgb(23, 28, 128);
+  color: rgb(158, 31, 31);
   font-size: 4rem;
-  border: 0.5rem double rgb(191, 207, 194);
+  background-color: bisque;
+  border: 0.5rem groove rgb(191, 207, 194);
   border-radius: 5%;
 }
 
@@ -14,7 +15,7 @@ h1 {
   font-size: 2.5rem;
 }
 .text p {
-  color: rgb(162, 47, 160);
+  color: rgb(108, 14, 106);
   font-size: 1.75rem;
 }
 
@@ -23,11 +24,12 @@ h1 {
 }
 
 .books img {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 10em;
+  max-height: 10em;
   margin: 1% 5%;
 }
 .books .book-1 {
+  background-color: burlywood;
   border: 0.1rem solid rgb(192, 33, 33);
   border-radius: 5%;
   margin: 2% 33%;
@@ -36,6 +38,7 @@ h1 {
   align-items: center;
 }
 .books .book-2 {
+  background-color: burlywood;
   border: 0.1rem solid rgb(192, 33, 33);
   border-radius: 5%;
   margin: 2% 33%;
@@ -44,6 +47,7 @@ h1 {
   align-items: center;
 }
 .books .book-3 {
+  background-color: burlywood;
   border: 0.1rem solid rgb(192, 33, 33);
   border-radius: 5%;
   margin: 2% 33%;
@@ -52,6 +56,7 @@ h1 {
   align-items: center;
 }
 .books .book-4 {
+  background-color: burlywood;
   border: 0.1rem solid rgb(192, 33, 33);
   border-radius: 5%;
   margin: 2% 33%;
@@ -60,6 +65,7 @@ h1 {
   align-items: center;
 }
 .books .book-5 {
+  background-color: burlywood;
   border: 0.1rem solid rgb(192, 33, 33);
   border-radius: 5%;
   margin: 2% 33%;
